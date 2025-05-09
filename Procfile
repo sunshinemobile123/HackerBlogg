@@ -1,0 +1,1 @@
+echo "web: gunicorn HackerBlogg.wsgi" > Procfile
