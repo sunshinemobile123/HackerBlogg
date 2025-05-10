@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'Blog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-import dj_database_url DATABASES = { 'default': dj_database_url.config(default='postgresql://blogg_7ex1_user:OCmnPrATrjRR4ZMrgkoDdfWcLy8sr31N@dpg-d0fij3juibrs73eo87qg-a/blogg_7ex1') }
+DATABASES = { 'default': dj_database_url.config(default='postgresql://blogg_7ex1_user:OCmnPrATrjRR4ZMrgkoDdfWcLy8sr31N@dpg-d0fij3juibrs73eo87qg-a/blogg_7ex1') }
 
 
 
